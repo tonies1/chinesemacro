@@ -53,7 +53,14 @@ if selected_page == "Chinese Indices":
                   title='Chinese Indices')
 
     fig
-
+    st.markdown(
+    """
+    This is .....
+    - item1
+    - item2
+    - item3
+    """
+    )
 
 # Page 2
 
