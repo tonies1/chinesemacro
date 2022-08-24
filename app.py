@@ -75,6 +75,14 @@ if selected_page == "SHIBOR":
                   title='SHIBOR')
 
     fig
+    st.markdown(
+    """
+    This is .....
+    - item1
+    - item2
+    - item3
+    """
+    )
 
 # Page 3
 if selected_page == "Macro Leverage Ratio":
