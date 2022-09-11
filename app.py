@@ -55,10 +55,7 @@ if selected_page == "Chinese Indices":
     fig
     st.markdown(
     """
-    This is .....
-    - item1
-    - item2
-    - item3
+    Important Chinese Daily Macroeconomic Indices/Indicators Data from 07/13/2006 to 09/27/2005
     """
     )
 
@@ -77,8 +74,8 @@ if selected_page == "SHIBOR":
     fig
     st.markdown(
     """
-    This is .....
-    - item1
+    Annualized SHIBOR (Shanghai Interbank Offered Rate) daily rates in percentage from 10/06/2006 to 05/12/2022 
+    - SHIBOR is a daily reference rate that reflects the loan transactions between banks maturing from overnight to a year
     - item2
     - item3
     """
@@ -96,6 +93,12 @@ if selected_page == "Macro Leverage Ratio":
                   title='Macro Leverage Ratio')
 
     fig
+    st.markdown(
+    """
+    Macro Leverage Ratio (Debt/GDP) in percentage is a quarterly data that quantifies the economic stability of China from 03/01/2005 to 03/01/2022 
+    - Higher ratios are signs of excessive liquidity in the market, making it vulnerable when the country slows down on its growth
+    """
+    )
 
 # Page 4
 if selected_page == "National Enterprise Index":
@@ -109,6 +112,12 @@ if selected_page == "National Enterprise Index":
                   title='National Enterprise Index')
 
     fig
+    st.markdown(
+    """
+    Quarterly data of National Enterprise Indices that represent the prospect of Chinese companies and 
+    confidence of Chinese entrepreneurs from 03/01/2005 to 12/01/2021 
+    """
+    )
 
 # Page 5
 if selected_page == "Tax Income":
@@ -122,3 +131,8 @@ if selected_page == "Tax Income":
                   title='Tax Income')
 
     fig
+    st.markdown(
+    """
+    Quarterly tax income data from 12/01/2009 to 03/01/2022
+    """
+    )
