@@ -55,7 +55,7 @@ if selected_page == "Chinese Indices":
     fig
     st.markdown(
     """
-    Important Chinese Daily Macroeconomic Indices/Indicators Data from 07/13/2006 to 09/27/2005
+    Important Chinese Daily Macroeconomic Indices/Indicators from 07/13/2006 to 09/27/2005
     """
     )
 
@@ -76,8 +76,6 @@ if selected_page == "SHIBOR":
     """
     Annualized SHIBOR (Shanghai Interbank Offered Rate) daily rates in percentage from 10/06/2006 to 05/12/2022 
     - SHIBOR is a daily reference rate that reflects the loan transactions between banks maturing from overnight to a year
-    - item2
-    - item3
     """
     )
 
@@ -96,7 +94,7 @@ if selected_page == "Macro Leverage Ratio":
     st.markdown(
     """
     Macro Leverage Ratio (Debt/GDP) in percentage is a quarterly data that quantifies the economic stability of China from 03/01/2005 to 03/01/2022 
-    - Higher ratios are signs of excessive liquidity in the market, making it vulnerable when the country slows down on its growth
+    - Higher ratios are signs of excessive liquidity in the market, making it vulnerable when the economy slows down expanding
     """
     )
 
