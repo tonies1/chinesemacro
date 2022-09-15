@@ -55,7 +55,7 @@ if selected_page == "Chinese Indices":
     fig
     st.markdown(
     """
-    Important Chinese Daily Macroeconomic Indices/Indicators from 07/13/2006 to 09/27/2005
+    Important Chinese Daily Macroeconomic Indices/Indicators from 09/27/2005 to 05/13/2022
     """
     )
 
